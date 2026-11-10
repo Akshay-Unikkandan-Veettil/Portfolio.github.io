@@ -134,7 +134,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:22px 48p
     <a onclick="sp('certificates')" data-p="certificates">Certificates</a>
     <a onclick="sp('contact')" data-p="contact">Contact</a>
   </div>
-  <a class="nav-cv" href="https://raw.githubusercontent.com/Akshay-Unikkandan-Veettil/Akshay-Unikkandan-Veettil.github.io/main/Resume.pdf" download>Download CV</a>
+  <a class="nav-cv" href="https://raw.githubusercontent.com/Akshay-Unikkandan-Veettil/Portfolio.github.io/main/Resume.pdf" download>Download CV</a>
 </nav>
 
 <!-- HOME -->
@@ -241,7 +241,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:22px 48p
 
       <div class="pc fi">
         <div class="pleft">
-          <div><div class="pnum">01 / 07</div><div style="margin-top:6px"><span class="pcat">Demand Forecasting</span></div></div>
+          <div><div class="pnum">01 / 03</div><div style="margin-top:6px"><span class="pcat">Demand Forecasting</span></div></div>
           <div class="pchart"><div class="bar" style="height:38%;width:13px;opacity:.4"></div><div class="bar" style="height:54%;width:13px;opacity:.5"></div><div class="bar" style="height:68%;width:13px;opacity:.62"></div><div class="bar" style="height:50%;width:13px;opacity:.48"></div><div class="bar" style="height:86%;width:13px;opacity:.75"></div><div class="bar" style="height:66%;width:13px;opacity:.6"></div><div class="bar" style="height:95%;width:13px;opacity:.85"></div><div class="bar" style="height:78%;width:13px;opacity:.7"></div></div>
           <div><div class="tlbl">Tools used</div><div class="trow">
             <div class="ti"><div class="tico" style="background:#3572A5"><svg width="20" height="20" viewBox="0 0 32 32"><use href="#ico-py"/></svg></div><div class="tnm">Python</div></div>
@@ -251,63 +251,16 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:22px 48p
           </div></div>
         </div>
         <div class="pright">
-          <div class="ptitle">FMCG Demand Forecasting</div><div class="pctx">B2B Supply Chain &middot; Staffline / Compleat Food Group</div>
-          <div class="pdesc">Built an FMCG forecasting engine benchmarking 10 methods against IBF standards — cutting forecast error 68% by moving from a 50.8% MAPE baseline to Prophet at 15.79% across 9,789 transactions, unlocking $470,146 in annual stock savings at a 95% service level. Designed an ABC/XYZ split across 17 categories to drive method selection per SKU, with embedded causal signals (US holidays, paydays) mirroring SAP IBP logic. Ran a three-band scenario plan that caught a November 2018 spike 14% above best case, and decomposed regional demand to surface $100,023 in West region sales hidden by national aggregation.</div>
-          <div class="pres"><span class="reslbl">Result</span><span class="resval">87% forecast accuracy &middot; Ad-hoc reporting reduced by 35%</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/FMCG-Forecasting" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
+          <div class="ptitle">Retail Demand Forecasting &amp; Safety Stock</div><div class="pctx">Python &middot; 9,789 orders &middot; Kaggle Superstore dataset (2015&ndash;2018)</div>
+          <div class="pdesc">Benchmarked 6 Excel-style baselines against Holt-Winters, SARIMA, Prophet and XGBoost. Prophet cut MAPE from 50.8% (3-month moving average) to 15.8% and reduced bias from -20.1% to -7.0%. Translated the accuracy gain into inventory decisions: ABC/XYZ segmentation of 17 sub-categories, safety stock at a 95% service level, and pessimistic / base / optimistic S&amp;OP scenarios that exposed a November demand spike 14% above the best case.</div>
+          <div class="pres"><span class="reslbl">Result</span><span class="resval">MAPE 50.8% &rarr; 15.8% &middot; Safety stock -50% &middot; $470K/yr holding cost saving</span></div>
+          <a href="https://github.com/Akshay-Unikkandan-Veettil/Retail-Demand-Forecasting" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
         </div>
       </div>
 
       <div class="pc fi">
         <div class="pleft">
-          <div><div class="pnum">02 / 07</div><div style="margin-top:6px"><span class="pcat">Predictive Modelling</span></div></div>
-          <div class="pchart" style="align-items:center;padding:8px 10px">
-            <div style="display:flex;flex-direction:column;gap:4px;width:100%">
-              <div style="display:flex;align-items:center;gap:4px"><div style="font-size:8px;color:var(--accent);width:28px">XGB</div><div style="flex:1;height:10px;background:var(--accent2);border-radius:2px;opacity:.85"></div></div>
-              <div style="display:flex;align-items:center;gap:4px"><div style="font-size:8px;color:var(--accent);width:28px">RF</div><div style="flex:.82;height:10px;background:var(--accent2);border-radius:2px;opacity:.7"></div></div>
-              <div style="display:flex;align-items:center;gap:4px"><div style="font-size:8px;color:var(--accent);width:28px">GBM</div><div style="flex:.72;height:10px;background:var(--accent2);border-radius:2px;opacity:.6"></div></div>
-              <div style="display:flex;align-items:center;gap:4px"><div style="font-size:8px;color:var(--accent);width:28px">MLP</div><div style="flex:.6;height:10px;background:var(--accent2);border-radius:2px;opacity:.5"></div></div>
-              <div style="display:flex;align-items:center;gap:4px"><div style="font-size:8px;color:var(--accent);width:28px">KNN</div><div style="flex:.48;height:10px;background:var(--accent2);border-radius:2px;opacity:.4"></div></div>
-            </div>
-          </div>
-          <div><div class="tlbl">Tools used</div><div class="trow">
-            <div class="ti"><div class="tico" style="background:#3572A5"><svg width="20" height="20" viewBox="0 0 32 32"><use href="#ico-py"/></svg></div><div class="tnm">Python</div></div>
-            <div class="ti"><div class="tico" style="background:#F7931E"><svg width="20" height="20" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#F7931E"/><text x="5" y="22" font-size="13" font-weight="800" fill="#fff" font-family="Arial">SK</text></svg></div><div class="tnm">Scikit</div></div>
-            <div class="ti"><div class="tico" style="background:#013243"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#013243"/><text x="4" y="22" font-size="12" font-weight="700" fill="#4DABCF" font-family="Arial">PD</text></svg></div><div class="tnm">Pandas</div></div>
-            <div class="ti"><div class="tico" style="background:#4C77B5"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#4C77B5"/><text x="4" y="22" font-size="11" font-weight="700" fill="#fff" font-family="Arial">NP</text></svg></div><div class="tnm">NumPy</div></div>
-          </div></div>
-        </div>
-        <div class="pright">
-          <div class="ptitle">Ensemble ML for Demand &amp; Value Forecasting</div><div class="pctx">MSc Dissertation &middot; Bournemouth University &middot; 2023</div>
-          <div class="pdesc">Comparative study evaluating XGBoost, Random Forest, Gradient Boosting, MLP, and KNN for predicting entity value from complex attribute sets. XGBoost led performance, demonstrating strong capability for non-linear relationship capture. Explored hybrid ensemble models (XGB+MLP, LR+RF). Findings directly transferable to demand-driven valuation, pricing, and resource planning contexts.</div>
-          <div class="pres"><span class="reslbl">Result</span><span class="resval">XGBoost top performer &middot; Hybrid ensemble approach validated</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/Data-Analytics-Machine-learning/blob/main/Football%20Player%20Transfer%20Value%20Prediction.ipynb" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
-        </div>
-      </div>
-
-      <div class="pc fi">
-        <div class="pleft">
-          <div><div class="pnum">03 / 07</div><div style="margin-top:6px"><span class="pcat">Route Optimisation</span></div></div>
-          <div class="pchart" style="align-items:center;justify-content:center">
-            <svg width="140" height="70" viewBox="0 0 140 70"><circle cx="20" cy="55" r="5" fill="#8c6e56" opacity=".7"/><circle cx="55" cy="20" r="5" fill="#8c6e56" opacity=".7"/><circle cx="90" cy="45" r="5" fill="#8c6e56" opacity=".7"/><circle cx="125" cy="15" r="5" fill="#8c6e56" opacity=".85"/><line x1="20" y1="55" x2="55" y2="20" stroke="#8c6e56" stroke-width="1.5" opacity=".5"/><line x1="55" y1="20" x2="90" y2="45" stroke="#8c6e56" stroke-width="1.5" opacity=".5"/><line x1="90" y1="45" x2="125" y2="15" stroke="#8c6e56" stroke-width="2" opacity=".8"/><line x1="20" y1="55" x2="90" y2="45" stroke="#8c6e56" stroke-width=".8" stroke-dasharray="3,3" opacity=".3"/></svg>
-          </div>
-          <div><div class="tlbl">Tools used</div><div class="trow">
-            <div class="ti"><div class="tico" style="background:#3572A5"><svg width="20" height="20" viewBox="0 0 32 32"><use href="#ico-py"/></svg></div><div class="tnm">Python</div></div>
-            <div class="ti"><div class="tico" style="background:#F7931E"><svg width="20" height="20" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#F7931E"/><text x="5" y="22" font-size="13" font-weight="800" fill="#fff" font-family="Arial">SK</text></svg></div><div class="tnm">Scikit</div></div>
-            <div class="ti"><div class="tico" style="background:#013243"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#013243"/><text x="4" y="22" font-size="12" font-weight="700" fill="#4DABCF" font-family="Arial">PD</text></svg></div><div class="tnm">Pandas</div></div>
-          </div></div>
-        </div>
-        <div class="pright">
-          <div class="ptitle">Operational Route Optimisation Model</div><div class="pctx">Path optimisation &middot; Transferable to logistics &amp; supply chain</div>
-          <div class="pdesc">Developed a computational path optimisation model using graph-based techniques applicable to real-world logistics routing. The model identifies optimal traversal paths under defined constraints, directly transferable to last-mile delivery routing, warehouse pick-path optimisation, and supply chain network efficiency analysis.</div>
-          <div class="pres"><span class="reslbl">Application</span><span class="resval">Last-mile delivery &middot; Warehouse routing &middot; Network efficiency</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/Data-Analytics-Machine-learning/blob/main/SEO.ipynb" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
-        </div>
-      </div>
-
-      <div class="pc fi">
-        <div class="pleft">
-          <div><div class="pnum">04 / 07</div><div style="margin-top:6px"><span class="pcat">Capacity Planning</span></div></div>
+          <div><div class="pnum">02 / 03</div><div style="margin-top:6px"><span class="pcat">Capacity Planning</span></div></div>
           <div class="pchart" style="align-items:center;justify-content:center">
             <svg width="140" height="70" viewBox="0 0 140 70"><polyline points="10,60 30,50 50,55 70,30 90,20 110,35 130,15" fill="none" stroke="#8c6e56" stroke-width="2" opacity=".7"/><circle cx="70" cy="30" r="4" fill="#c0392b" opacity=".7"/><circle cx="90" cy="20" r="4" fill="#c0392b" opacity=".7"/><line x1="65" y1="5" x2="65" y2="65" stroke="#c0392b" stroke-width="1" stroke-dasharray="3,3" opacity=".4"/><text x="68" y="12" font-size="8" fill="#8c6e56" opacity=".8" font-family="Arial">risk zone</text></svg>
           </div>
@@ -319,66 +272,30 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:22px 48p
           </div></div>
         </div>
         <div class="pright">
-          <div class="ptitle">Capacity Loss Prediction Model</div><div class="pctx">Workforce &amp; supply chain capacity management</div>
-          <div class="pdesc">Predictive model identifying capacity shortfall risk before it materialises. Built on operational data to classify and flag conditions likely to result in capacity loss, enabling proactive intervention. Directly applicable to workforce planning, production scheduling, and supply chain buffer management where demand-supply imbalances carry commercial cost.</div>
-          <div class="pres"><span class="reslbl">Application</span><span class="resval">Proactive capacity flagging &middot; Workforce &amp; production planning</span></div>
+          <div class="ptitle">Workforce Capacity Loss Prediction</div><div class="pctx">Python &middot; PostgreSQL &middot; Machine learning &middot; 1,544 employees</div>
+          <div class="pdesc">Predicts which employees are likely to leave so managers can plan cover before capacity drops. Cleaned a messy 37-column HR dataset in pandas, analysed attrition drivers in PostgreSQL, and compared Logistic Regression, Random Forest and XGBoost, prioritising recall so fewer leavers are missed. Overtime staff leave at 34% vs 15%; 363 employees flagged high-risk, representing up to $13.9M in replacement cost exposure.</div>
+          <div class="pres"><span class="reslbl">Result</span><span class="resval">20.6% attrition explained &middot; 363 high-risk staff flagged &middot; Overtime = #1 driver</span></div>
           <a href="https://github.com/Akshay-Unikkandan-Veettil/Capacity-Loss-Prediction" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
         </div>
       </div>
 
       <div class="pc fi">
         <div class="pleft">
-          <div><div class="pnum">05 / 07</div><div style="margin-top:6px"><span class="pcat">Academic Project</span></div></div>
+          <div><div class="pnum">03 / 03</div><div style="margin-top:6px"><span class="pcat">Route Optimisation</span></div></div>
           <div class="pchart" style="align-items:center;justify-content:center">
-            <svg width="100" height="80" viewBox="0 0 100 80"><rect x="5" y="5" width="40" height="35" rx="4" fill="#8c6e56" opacity=".15" stroke="#8c6e56" stroke-width="1"/><rect x="55" y="5" width="40" height="35" rx="4" fill="#8c6e56" opacity=".55" stroke="#8c6e56" stroke-width="1"/><rect x="5" y="46" width="40" height="28" rx="4" fill="#8c6e56" opacity=".4" stroke="#8c6e56" stroke-width="1"/><rect x="55" y="46" width="40" height="28" rx="4" fill="#8c6e56" opacity=".1" stroke="#8c6e56" stroke-width="1"/><text x="15" y="26" font-size="9" fill="#5c4a38" font-family="Arial">TN</text><text x="65" y="26" font-size="9" fill="#5c4a38" font-family="Arial">TP</text><text x="15" y="64" font-size="9" fill="#5c4a38" font-family="Arial">FN</text><text x="65" y="64" font-size="9" fill="#5c4a38" font-family="Arial">FP</text></svg>
+            <svg width="140" height="70" viewBox="0 0 140 70"><circle cx="20" cy="55" r="5" fill="#8c6e56" opacity=".7"/><circle cx="55" cy="20" r="5" fill="#8c6e56" opacity=".7"/><circle cx="90" cy="45" r="5" fill="#8c6e56" opacity=".7"/><circle cx="125" cy="15" r="5" fill="#8c6e56" opacity=".85"/><line x1="20" y1="55" x2="55" y2="20" stroke="#8c6e56" stroke-width="1.5" opacity=".5"/><line x1="55" y1="20" x2="90" y2="45" stroke="#8c6e56" stroke-width="1.5" opacity=".5"/><line x1="90" y1="45" x2="125" y2="15" stroke="#8c6e56" stroke-width="2" opacity=".8"/><line x1="20" y1="55" x2="90" y2="45" stroke="#8c6e56" stroke-width=".8" stroke-dasharray="3,3" opacity=".3"/></svg>
           </div>
           <div><div class="tlbl">Tools used</div><div class="trow">
             <div class="ti"><div class="tico" style="background:#3572A5"><svg width="20" height="20" viewBox="0 0 32 32"><use href="#ico-py"/></svg></div><div class="tnm">Python</div></div>
             <div class="ti"><div class="tico" style="background:#F7931E"><svg width="20" height="20" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="#F7931E"/><text x="5" y="22" font-size="13" font-weight="800" fill="#fff" font-family="Arial">SK</text></svg></div><div class="tnm">Scikit</div></div>
-            <div class="ti"><div class="tico" style="background:#4C77B5"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#4C77B5"/><text x="4" y="22" font-size="11" font-weight="700" fill="#fff" font-family="Arial">NP</text></svg></div><div class="tnm">NumPy</div></div>
+            <div class="ti"><div class="tico" style="background:#013243"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#013243"/><text x="4" y="22" font-size="12" font-weight="700" fill="#4DABCF" font-family="Arial">PD</text></svg></div><div class="tnm">Pandas</div></div>
           </div></div>
         </div>
         <div class="pright">
-          <div class="ptitle">Classification Model for Risk Prediction</div><div class="pctx">AI &amp; Machine Learning &middot; Academic</div>
-          <div class="pdesc">Applied binary classification techniques to predict medical risk outcomes from patient attribute data. Implemented and compared multiple classification models evaluating precision, recall, and F1 performance. Demonstrates core ML workflow competency applicable to any domain requiring risk classification and early-warning prediction.</div>
-          <div class="pres"><span class="reslbl">Skills shown</span><span class="resval">Classification &middot; Feature engineering &middot; Model evaluation &middot; Risk prediction</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/AI-Projects" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
-        </div>
-      </div>
-
-      <div class="pc fi">
-        <div class="pleft">
-          <div><div class="pnum">06 / 07</div><div style="margin-top:6px"><span class="pcat">BI Dashboard</span></div></div>
-          <div class="pchart" style="gap:4px;padding:10px 12px"><div class="bar" style="height:55%;width:13px;opacity:.5"></div><div class="bar" style="height:75%;width:13px;opacity:.65"></div><div class="bar" style="height:45%;width:13px;opacity:.42"></div><div class="bar" style="height:90%;width:13px;opacity:.8"></div><div class="bar" style="height:62%;width:13px;opacity:.56"></div><div class="bar" style="height:80%;width:13px;opacity:.7"></div></div>
-          <div><div class="tlbl">Tools used</div><div class="trow">
-            <div class="ti"><div class="tico" style="background:#F2C811"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#F2C811"/><text x="3" y="22" font-size="10" font-weight="800" fill="#333" font-family="Arial">PBI</text></svg></div><div class="tnm">Power BI</div></div>
-            <div class="ti"><div class="tico" style="background:#e38c00"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#e38c00"/><text x="4" y="22" font-size="10" font-weight="700" fill="#fff" font-family="Arial">DAX</text></svg></div><div class="tnm">DAX</div></div>
-          </div></div>
-        </div>
-        <div class="pright">
-          <div class="ptitle">HR Analytics Power BI Dashboard</div><div class="pctx">Workforce analytics &middot; Power BI</div>
-          <div class="pdesc">Operational dashboard built in Power BI for HR analytics, covering workforce composition, attendance patterns, and headcount metrics. Demonstrates advanced DAX measures, dynamic filtering via slicers, and star schema data modelling for clean, scalable reporting across senior stakeholders.</div>
-          <div class="pres"><span class="reslbl">Skills shown</span><span class="resval">Advanced DAX &middot; Star schema &middot; Executive reporting design</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/Power-BI" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
-        </div>
-      </div>
-
-      <div class="pc fi">
-        <div class="pleft">
-          <div><div class="pnum">07 / 07</div><div style="margin-top:6px"><span class="pcat">Data Visualisation</span></div></div>
-          <div class="pchart" style="align-items:center;justify-content:center">
-            <svg width="90" height="80" viewBox="0 0 90 80"><circle cx="45" cy="40" r="32" fill="none" stroke="#8c6e56" stroke-width="1" opacity=".3"/><path d="M45 40 L45 8 A32 32 0 0 1 72 56 Z" fill="#8c6e56" opacity=".6"/><path d="M45 40 L72 56 A32 32 0 0 1 18 56 Z" fill="#8c6e56" opacity=".4"/><path d="M45 40 L18 56 A32 32 0 0 1 45 8 Z" fill="#8c6e56" opacity=".22"/></svg>
-          </div>
-          <div><div class="tlbl">Tools used</div><div class="trow">
-            <div class="ti"><div class="tico" style="background:#F2C811"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#F2C811"/><text x="3" y="22" font-size="10" font-weight="800" fill="#333" font-family="Arial">PBI</text></svg></div><div class="tnm">Power BI</div></div>
-            <div class="ti"><div class="tico" style="background:#e38c00"><svg width="20" height="20" viewBox="0 0 32 32"><rect width="32" height="32" fill="#e38c00"/><text x="2" y="21" font-size="9" font-weight="700" fill="#fff" font-family="Arial">PQM</text></svg></div><div class="tnm">PQ M</div></div>
-          </div></div>
-        </div>
-        <div class="pright">
-          <div class="ptitle">Netflix Content Dashboard</div><div class="pctx">Content analytics &middot; Data visualisation &middot; Power BI</div>
-          <div class="pdesc">Interactive Power BI dashboard visualising Netflix content library data across genre, country, release year, and content type. Built to demonstrate data storytelling and visual design principles using Power BI advanced chart types and Power Query for data transformation and cleaning.</div>
-          <div class="pres"><span class="reslbl">Skills shown</span><span class="resval">Data storytelling &middot; Visual design &middot; Power Query transformation</span></div>
-          <a href="https://github.com/Akshay-Unikkandan-Veettil/Power-BI" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
+          <div class="ptitle">Flight Network Routing Optimisation</div><div class="pctx">Python &middot; NetworkX &middot; Dijkstra &middot; MSc coursework, Bournemouth University</div>
+          <div class="pdesc">Modelled real North Atlantic flight positions as a network linking aircraft to three ground stations (London, Newark, Greenland). Calculated distances and link transmission rates, built a weighted graph, and used Dijkstra&rsquo;s algorithm to find routes that minimise end-to-end latency and maximise transmission rate under link constraints. The same approach applies to logistics network and routing decisions.</div>
+          <div class="pres"><span class="reslbl">Result</span><span class="resval">Minimum-latency routes for all aircraft to 3 ground stations</span></div>
+          <a href="https://github.com/Akshay-Unikkandan-Veettil/Flight-Network-Routing-Optimisation" target="_blank" class="plink"><div class="plinkd">&#8599;</div>View on GitHub</a>
         </div>
       </div>
 
